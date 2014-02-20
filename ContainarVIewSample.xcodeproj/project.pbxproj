@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4C3630718B52F7F004BAD31 /* RoadPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C3630618B52F7F004BAD31 /* RoadPriceViewController.m */; };
 		A4EDFE0818B4DCC20049D0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EDFE0718B4DCC20049D0CE /* Foundation.framework */; };
 		A4EDFE0A18B4DCC20049D0CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EDFE0918B4DCC20049D0CE /* CoreGraphics.framework */; };
 		A4EDFE0C18B4DCC20049D0CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EDFE0B18B4DCC20049D0CE /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		A4EDFE2C18B4DCC20049D0CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EDFE0B18B4DCC20049D0CE /* UIKit.framework */; };
 		A4EDFE3418B4DCC20049D0CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EDFE3218B4DCC20049D0CE /* InfoPlist.strings */; };
 		A4EDFE3618B4DCC20049D0CE /* ContainarVIewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDFE3518B4DCC20049D0CE /* ContainarVIewSampleTests.m */; };
+		A4EDFE4118B525FE0049D0CE /* FixedAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDFE4018B525FE0049D0CE /* FixedAssetsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4C3630518B52F7F004BAD31 /* RoadPriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoadPriceViewController.h; path = 001_ViewControllers/RoadPriceViewController.h; sourceTree = "<group>"; };
+		A4C3630618B52F7F004BAD31 /* RoadPriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoadPriceViewController.m; path = 001_ViewControllers/RoadPriceViewController.m; sourceTree = "<group>"; };
 		A4EDFE0418B4DCC20049D0CE /* ContainarVIewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainarVIewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EDFE0718B4DCC20049D0CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4EDFE0918B4DCC20049D0CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +59,8 @@
 		A4EDFE3118B4DCC20049D0CE /* ContainarVIewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContainarVIewSampleTests-Info.plist"; sourceTree = "<group>"; };
 		A4EDFE3318B4DCC20049D0CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4EDFE3518B4DCC20049D0CE /* ContainarVIewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainarVIewSampleTests.m; sourceTree = "<group>"; };
+		A4EDFE3F18B525FE0049D0CE /* FixedAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixedAssetsViewController.h; path = 001_ViewControllers/FixedAssetsViewController.h; sourceTree = "<group>"; };
+		A4EDFE4018B525FE0049D0CE /* FixedAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FixedAssetsViewController.m; path = 001_ViewControllers/FixedAssetsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				A4EDFE1C18B4DCC20049D0CE /* Main_iPad.storyboard */,
 				A4EDFE1F18B4DCC20049D0CE /* FTViewController.h */,
 				A4EDFE2018B4DCC20049D0CE /* FTViewController.m */,
+				A4EDFE3F18B525FE0049D0CE /* FixedAssetsViewController.h */,
+				A4EDFE4018B525FE0049D0CE /* FixedAssetsViewController.m */,
+				A4C3630518B52F7F004BAD31 /* RoadPriceViewController.h */,
+				A4C3630618B52F7F004BAD31 /* RoadPriceViewController.m */,
 				A4EDFE2218B4DCC20049D0CE /* Images.xcassets */,
 				A4EDFE0E18B4DCC20049D0CE /* Supporting Files */,
 			);
@@ -254,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EDFE4118B525FE0049D0CE /* FixedAssetsViewController.m in Sources */,
 				A4EDFE1818B4DCC20049D0CE /* FTAppDelegate.m in Sources */,
+				A4C3630718B52F7F004BAD31 /* RoadPriceViewController.m in Sources */,
 				A4EDFE1418B4DCC20049D0CE /* main.m in Sources */,
 				A4EDFE2118B4DCC20049D0CE /* FTViewController.m in Sources */,
 			);
@@ -475,6 +487,7 @@
 				A4EDFE3B18B4DCC20049D0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4EDFE3C18B4DCC20049D0CE /* Build configuration list for PBXNativeTarget "ContainarVIewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +496,7 @@
 				A4EDFE3E18B4DCC20049D0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
